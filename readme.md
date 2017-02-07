@@ -29,6 +29,6 @@ All extented development of BootStrap 4 done within AppStrap is distributed unde
 
 † and therefore AppStrap
 
-*AppStrap uses Bootswatch which is under the MIT License (MIT).
+* AppStrap uses Bootswatch which is under the MIT License (MIT).
 
 Everything else has been created by Alessia Weir for the AppStrap theme and is distributed under GPL v3 license.
