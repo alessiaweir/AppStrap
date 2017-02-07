@@ -1,0 +1,11 @@
+/* -- Default Sidebar Partial SCSS File -- */
+
+.search-form.container {
+	padding: 0px;
+	.search-input {
+		padding-left: 0px;
+	}
+	.search-submit {
+		padding: 0;
+	}
+}

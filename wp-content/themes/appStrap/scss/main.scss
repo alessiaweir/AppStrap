@@ -1,0 +1,40 @@
+/* -- Main SCSS file -- */
+// This file gets processed into CSS and
+// gets imported into the WP stylesheet
+// import all required files for styling
+
+/* Importing AppStrap Variables */
+
+@import 'modules/_variables.scss';
+
+/* Importing Bootswatch Variables for use in AppStrap Styling */
+
+@import 'vendor/bootswatch-materia/_variables.scss';
+
+/* Importing Bootstrap Mixins for use in AppStrap Sass */
+
+@import 'vendor/bootstrap-4.0.0/_mixins.scss';
+
+/* Importing AppStrap Modules */
+
+@import 'modules/_mixins.scss';
+
+
+/* Importing AppStrap Partials */
+
+@import 'partials/_base.scss';
+@import 'partials/_typography.scss';
+@import 'partials/_buttons.scss';
+@import 'partials/_images.scss';
+@import 'partials/_navigation.scss';
+@import 'partials/_content.scss';
+@import 'partials/_sidebar-default.scss';
+@import 'partials/_footer.scss';
+
+/* Importing Bootswatch Materia Styling Files */
+
+@import 'vendor/bootswatch-materia/_bootswatch.scss';
+
+/* Importing Bootstrap 4 Sass Files */
+
+@import 'vendor/bootstrap-4.0.0/bootstrap.scss';

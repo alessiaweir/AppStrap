@@ -1,0 +1,17 @@
+/* -- Variable Module SCSS File -- */
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder. 
+// Just copy a bootstrap variable, paste it here and edit the value.
+
+$brand-primary: #00AC99;
+$brand-secondary: #F97C00;
+$gray-dark: #4A4A4A;
+$text-color-primary: $gray-dark;
+$text-color-secondary: #FFF;
+
+$link-color: $brand-primary;
+$link-hover-decoration: none;
+
+$btn-secondary-color: #FFF;
+$btn-secondary-bg: $brand-secondary;
+$btn-secondary-border: $brand-secondary;

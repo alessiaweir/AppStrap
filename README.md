@@ -1,3 +1,0 @@
-# AppStrap
-# AppStrap
-# AppStrap

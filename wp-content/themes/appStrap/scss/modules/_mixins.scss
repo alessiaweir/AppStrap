@@ -1,0 +1,7 @@
+/* -- Mixins Module SCSS file -- */
+// Add mixin styles here to be used throughout the site
+
+@mixin font-size($sizeValue: 1.4) {
+	font-size: $sizeValue + px;
+	font-size: ($sizeValue * 62.5%) + rem;
+}

@@ -1,0 +1,35 @@
+/* -- Header Partial SCSS File -- */
+
+nav.navbar {
+	/* -- sticky nav -- */
+	// position: fixed;
+	// z-index: $zindex-navbar-fixed;
+	// width: 100%;
+	padding: 1%;
+	margin-bottom: 0 !important;
+	.row {
+		.navbar-right {
+			padding: 1% 0;
+			text-align: right;
+			.dropdown-menu {
+    		left: -100px;
+			}
+			#menu-main-menu {
+				display: inline-block;
+			}
+			.navbar-default {
+				padding: 4% 0;
+			}
+		}
+	}
+	.navbar-brand {
+		height: 50px;
+		// @include media-breakpoint-up(lg) {
+		// 	height: 90px;
+		// 	}
+		img {
+			max-height: 100%;
+			width: auto;
+		}
+	}
+}
